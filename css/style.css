@@ -123,39 +123,65 @@ html {
   
   /* Global */
   body {
-    background-color: var(--primary-color);
+    background-color:black;
+    color:white;
     font-family: var(--font-family);
+
   }
 
+  a{
+    color:white;
+    text-decoration: none;
+    font-family: 'Roboto Mono', monospace;
+    font-style: italic;
+
+  }
+  a:active,
+  a:hover{
+    text-decoration: underline;
+  }
+
+ 
+  
   .logo{
-    border: 2px solid blue;
-  }
-.menu-izq{
-  border:  2px solid pink;
-}
-.menu-der{
-  border: 2px solid paleturquoise;
-}
-
-.imagenes-proyectos{
-  border: 2px solid black;
-}
+    padding: 20px;
+    font-size: 8px;
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+    font-style: italic;
+    font: weight 2;;
     
-.subtitulo{
-  border: 2px solid red;
 }
 
-.textos{
-  border: 2px solid whitesmoke;
+section{
+    display: flex;
+    justify-content: space-between;
+}
+.right-menu{
+  display: flex;
+  width:3vw;
+  writing-mode: vertical-lr;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  padding-right: 50px;
+  
+  
 }
 
-.imagenes-interiores{
-  border: 2px solid blueviolet;
+.left-menu{
+  display: flex;
+   width:3vw;
+  writing-mode: vertical-lr;
+  transform: rotate(180deg);
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  padding-right: 50px;
 }
 
-.contacto{
-  border: 2px white;
-}
+
+
 
   /* Sections */
   
