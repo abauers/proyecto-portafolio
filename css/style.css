@@ -9,7 +9,7 @@
   --font-family: "Roboto Mono", monospace;
   /* Utils */
   --heading-vh: 7vh;
-  --container-vh: 93vh;
+  --container-vh: 87vh;
 }
 
 /* Resets */
@@ -212,6 +212,7 @@ h4 {
 .home {
   color: var(--white);
   background: var(--black);
+  max-height: 100vh;
 }
 
 .home a {
