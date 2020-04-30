@@ -219,6 +219,29 @@ h4 {
   color: var(--white);
 }
 
+/* Contacto */
+.contacto {
+  background: var(--white);
+  color: var(--black);
+}
+
+.container-contacto .menu {
+  color: var(--black);
+}
+/* Main */
+.container-contacto {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  max-width: 100vw;
+  height: var(--container-vh);
+}
+
+.container-contacto .contacto {
+  align-self: center;
+  justify-self: center;
+  min-width: 100vw;
+}
+
 /* Proyectos */
 .proyectos-container {
   display: grid;
