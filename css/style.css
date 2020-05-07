@@ -244,6 +244,17 @@ h4 {
   order: 2;
 }
 
+.info a {
+  display: block;
+  color: black;
+  text-decoration: none;
+  line-height: 2;
+}
+
+.info a:hover {
+  text-decoration: underline;
+}
+
 /* Proyectos */
 .proyectos-container {
   display: grid;
