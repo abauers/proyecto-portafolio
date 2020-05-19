@@ -77,11 +77,6 @@ table {
 [hidden] {
   display: none;
 }
-noscript {
-  display: block;
-  margin-bottom: 1em;
-  margin-top: 1em;
-}
 
 /****************************************
  *    Base
